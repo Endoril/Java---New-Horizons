@@ -1,0 +1,13 @@
+
+public class Hallo {
+
+	public static void main(String[] args) {
+		System.out.println("Dies ist eine Tabelle:"
+				+ "\n\n\t\t Spalte 1 \t Spalte 2 \t Spalte 3"
+				+ "\n\n Zeile 1:\t 3 \t\t 5500 \t\t 4"
+				+ "\n Zeile 2:\t 987 \t\t 85 \t\t 3"
+				+ "\n Zeile 3:\t 9999 \t\t 58 \t\t 576");
+
+	}
+
+}
