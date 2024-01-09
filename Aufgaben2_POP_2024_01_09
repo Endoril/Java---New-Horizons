@@ -1,0 +1,28 @@
+
+public class clsPlayGround {
+
+	public static void main(String[] args) {
+		boolean a = false;
+		boolean b = false;
+
+		// Kopf ausgeben
+		System.out.println("a\tb\ta&b\ta|b");
+		// Erste Zeile Ausgeben
+		ausgabe(a, b);
+		// setze b auf true
+		b = !a;
+		ausgabe(a, b);
+		// setze a auf true und b auf false
+		a = b;
+		b = !a;
+		ausgabe(a, b);
+		// setze b auf false
+		b = !a;
+		ausgabe(a, b);
+	}
+
+	static void ausgabe(boolean a, boolean b) {
+		System.out.println(a + "\t" + b + "\t" + (a && b) + "\t" + (a || b));
+	}
+
+}
