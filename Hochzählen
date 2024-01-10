@@ -1,0 +1,21 @@
+/*
+ * Aufgabenstellung:
+ * Ausgabe soll sein die Zahlen von 1 bis 10
+ * in einer Zeile stehend,
+ * durch Leerzeichen getrennt
+ * mit einem Zeilenumbruch abgeschlossen:
+ * 1 2 3 4 5 6 7 8 9 10
+ */
+
+public class Hochzaehlen 
+{
+
+	public static void main(String[] args) 
+	{
+		for (int i=1; i<=10; i = i+1)
+			System.out.print(i+"");
+		
+		System.out.println();
+	}
+
+}
