@@ -1,0 +1,21 @@
+/*
+ * 1. Beispiel für eine Doppelschleife
+ */
+
+public class Doppelschleife1 {
+
+	public static void main(String[] args) {
+
+			// äußere Schleife schreibt Zeilen:
+		for (int zeile=1; zeile<=9; zeile++) {	//zeile:1..9
+			
+				// innere Schleife schreibt Spalten der Zeilen:
+			for (int spalte=1; spalte<=10; spalte++) {	//spalte:1..10
+				System.out.print  (zeile);
+			}
+			
+			System.out.println();
+		}
+
+	}
+}
