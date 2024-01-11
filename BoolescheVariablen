@@ -1,0 +1,18 @@
+/*
+ * Beispiel für den Umgang mit booleschen Variablen
+ */
+
+public class BoolescheVariablen {
+
+	public static void main(String[] args) {
+		boolean a=true, b=false;
+
+		System.out.println
+		("Der Wert von a ist "+a+", der von b ist "+b);
+		System.out.println("Der negierte Wert von a ist "+!a);
+		System.out.println("Die und-Verknuepfung ergibt "+(a&&b)+",");
+		System.out.println("die oder-Verknuepfung "+(a||b));
+		System.out.println("Sind a u. b gleich? "+(a==b));
+	}
+
+}
