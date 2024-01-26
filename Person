@@ -1,0 +1,33 @@
+
+public class Person {
+    	private String internName = "";
+	private int internGroesseInCm = 0;
+	private int internGewichtInKg = 0;
+	
+	// standard konstruktor ohne parameter
+	//private Person() {
+	    // der tut nix, also kann der eigentlich komplett weggelassen werden
+	//}
+	
+	public Person(String sName, int iGroesse, int iGewicht) {
+	    // dieser hier nimmt drei Werte entgegen
+	    internName 	      =	sName;
+	    internGroesseInCm = iGroesse;
+	    internGewichtInKg = iGewicht;
+	}
+	
+	public void macheDiaet(int anzahlDerTage) {
+	    System.out.println( internName + " macht jetzt " + anzahlDerTage + " Tage stramme Diät");
+	    internGewichtInKg = internGewichtInKg - (anzahlDerTage * 2);
+	    System.out.println("und wiegt jetzt " + internGewichtInKg + " kg.");
+	    System.out.println("===============================================");
+	}
+
+	// kein "static"!
+	public void zeigePersonendaten() {
+	    System.out.println( internName );
+	    System.out.println("ist " + internGroesseInCm + " cm gross.");
+	    System.out.println("und " + internGewichtInKg + " kg schwer.");
+	    System.out.println("===============================================");
+	}
+}
