@@ -1,0 +1,32 @@
+
+public class PeronenTestProgramm {
+
+	public static void main(String[] args) {
+	    int FranksGroesse = 186;
+	    int FranksGewicht = 84;
+	    
+	    int KTGroesse = 177;
+	    int KTGewicht = 150;
+	    int anzahlDiaettage = 8;
+	    
+	    // Erzeugen einer Instanz einer Person
+	    Person CHEF    = new Person( "CHEFCHEF" ,FranksGroesse, FranksGewicht );
+	    Person KTQT    = new Person( "KATHI" , KTGroesse, KTGewicht );
+	    Person BERNISE = new Person( "BERNISE" , 157 , 110  );
+
+	    BERNISE.zeigePersonendaten();
+	    BERNISE.macheDiaet(8);
+	    BERNISE.zeigePersonendaten();
+
+	    KTQT.zeigePersonendaten();
+	    KTQT.macheDiaet(anzahlDiaettage);
+	    KTQT.zeigePersonendaten();
+	    
+	    //System.out.println( "=== wir machen blösinn hier ===================");
+	    //KTQT = BERNISE;
+	    //KTQT.zeigePersonendaten();
+	    
+	    CHEF.zeigePersonendaten();
+	}
+
+}
